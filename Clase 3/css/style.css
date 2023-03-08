@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+main {
+  height: 100vh;
+}
+.texto {
+  padding: 10px;
+}
+#nombre {
+  color: red;
+  font-size: 2.4rem;
+  text-decoration: underline;
+}
+.contenedor__input {
+  margin-top: 20px;
+  border: solid 1px white;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  place-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.contenedor__input input {
+  font-size: 1.4rem;
+}
+.btn {
+  border: solid 1px white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.btn:active {
+  background-color: aqua;
+}

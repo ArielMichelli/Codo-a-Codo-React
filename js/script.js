@@ -1,7 +1,7 @@
 // ======== Clase 1 , 2 y 3 ========
 
 // let nombre = prompt("Ingrese un nombre:");
-let nombre = "pepe"
+let nombre = "prompt deshabilitado ;) "
 
 let contenedor_nombre = (document.getElementById("nombre").innerText = nombre);
 
@@ -57,7 +57,7 @@ const RenderBtn = (contenedor, text) => {
 
 const RenderInput = (type, placeholder) => {
   let myInput = new Input("inputs", type);
-  myInput.render()
+  myInput.render(placeholder)
 }
 
 arrayDeInputs.forEach(t => RenderInput(t));

@@ -12,8 +12,7 @@ main {
 
 #nombre {
   color: red;
-  font-size: 2.4rem;
-  text-decoration: underline;
+  font-size: 1.5rem;
 }
 
 .contenedor__input {
